@@ -1,4 +1,4 @@
-# Spotify Recommender
+# Spotify Songs Recommender
 
 A project combining Exploratory Data Analysis and Machine Learning on Spotify track data to understand which audio features most influence a song's popularity.
 It includes a recommendation system that suggests songs similar to a user-selected track, based on musical characteristics and weighted feature importance.
