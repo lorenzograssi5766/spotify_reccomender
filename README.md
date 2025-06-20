@@ -3,6 +3,7 @@
 A project combining Exploratory Data Analysis and Machine Learning on Spotify track data to understand which audio features most influence a song's popularity.
 It includes a recommendation system that suggests songs similar to a user-selected track, based on musical characteristics and weighted feature importance.
 
+
 Project Features
 
 - Exploratory Data Analysis of audio features and popularity
@@ -12,17 +13,18 @@ Project Features
   Favors popular and tracks near in time
   Returns a list of recommended songs for a selected input
 
-Repository Structure
 
-File	Description
+Repository Structure and File	Description
 
 spotify_EDA_ML_reccomender.ipynb	Full notebook with data exploration, ML modeling, and recommendation system + example output
 spotify_reccomender.ipynb	Clean version with just the code needed to run the recommender system
+
 
 Dataset
 
 The dataset used is available on Kaggle:
 🔗 Spotify Tracks Dataset – by maharshipandya
+
 
 How to Use
 
@@ -31,6 +33,7 @@ Install required packages:
 pip install pandas numpy matplotlib seaborn scikit-learn
 Load the dataset (tracks.csv from Kaggle).
 Run spotify_EDA_ML_reccomender.ipynb to see full analysis and recommendations in action.
+
 
 Contributions
 
